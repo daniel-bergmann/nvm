@@ -141,6 +141,8 @@ Alternatively, you can run the following commands for the different shells on th
 
 These should pick up the `nvm` command.
 
+If you still get a message like so: `-bash: nvm: command not found` try running `source ~/.nvm/nvm.sh`
+
 #### Troubleshooting on macOS
 
 Since OS X 10.9, `/usr/bin/git` has been preset by Xcode command line tools, which means we can't properly detect if Git is installed or not. You need to manually install the Xcode command line tools before running the install script, otherwise, it'll fail. (see [#1782](https://github.com/nvm-sh/nvm/issues/1782))
